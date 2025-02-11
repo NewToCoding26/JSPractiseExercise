@@ -4,11 +4,13 @@
             100   
    */
 
-const first = 70;
-const second = 30;
+const isEqualTo100 = (a, b) => a === 100 || b === 100 || (a + b) === 100;
 
-function checkNumbers(first, second) {
-    return first === 100 || second === 100 || first + second === 100;
-}
+console.log(isEqualTo100(100, 0));
+console.log(isEqualTo100(0, 100));
 
-console.log(checkNumbers(first, second));
+console.log(isEqualTo100(0, 10));
+console.log(isEqualTo100(10, 0));
+
+console.log(isEqualTo100(10, 0));
+console.log(isEqualTo100(10, 90));
