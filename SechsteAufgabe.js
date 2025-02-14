@@ -4,6 +4,35 @@
         them together. The string length must be 3 or more,
         if not, the original string is returned. */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
 const firstThreeCharacters = (str) => str.legth < 3 ? str : str.slice(0, 3) + str.slice(-3);
 
 console.log(firstThreeCharacters('Manno'));
