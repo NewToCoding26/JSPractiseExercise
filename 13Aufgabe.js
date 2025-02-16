@@ -1,5 +1,5 @@
-        /* Write a JavaScript program to find the number of even
-        values up to a given number */
+        /* Write a JavaScript program to check whether a given array
+        of integers is sorted in ascending order */
 
 
 
@@ -7,21 +7,45 @@
 
 
 
-/* Die `.push()`-Methode in JavaScript fügt ein oder mehrere Elemente **am Ende eines Arrays** hinzu und gibt die neue Länge des Arrays 
-zurück. */
 
 
 
-const evenValues = (arr) => arr.filter(num => num % 2 === 0).length;
 
-const createArrayOfNumbers = (num) => {
-    const returnArray = [];
-    for(let i = 0; i <= num; i += 1) {
-        returnArray.push(i);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+const isAscending = (arr) => {
+    for (let i = 0; i < arr.length; i += 1) {
+        if (arr[i+1] < arr[i]) return false;
     }
-    return returnArray;
-};
+    return true;
+};        
 
-
-console.log(evenValues(createArrayOfNumbers(10)));
-console.log(evenValues(createArrayOfNumbers(27)));
+console. log(isAscending([1,2,3,4,5,6]))
+console. log(isAscending([1,2,5,4,3,6]))
+console. log(isAscending([1,2,3,4,6,6]))

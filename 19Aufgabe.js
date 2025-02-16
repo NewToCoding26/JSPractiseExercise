@@ -38,8 +38,6 @@
 
 
 
-
-
         
 /* Math.random() :
 Generiert eine zufällige Zahl zwischen 0 (inklusive) und 1 (exklusiv). Diese Methode wird verwendet, um Zufallszahlen zu erstellen.

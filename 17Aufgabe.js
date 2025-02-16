@@ -40,15 +40,17 @@
         
         
         
+// Object.keys(a): Gibt ein Array mit den Eigenschaftsnamen (Keys) des Objekts a zurück.
+
+// b.hasOwnProperty(key): Überprüft, ob das Objekt b eine bestimmte Eigenschaft key besitzt.
+
+/* every(): Überprüft, ob alle Elemente in einem Array eine gegebene Bedingung erfüllen (in diesem Fall, ob b.hasOwnProperty(key) für 
+jeden Key true zurückgibt). */
         
         
+const compareObjects = (a, b) => Object.keys(a).every(key => b.hasOwnProperty(key));
         
         
-        
-        
-        const compareObjects = (a, b) => Object.keys(a).every(key => b.hasOwnProperty(key));
-        
-        
-        console.log(compareObjects(objA, objB));
-        console.log(compareObjects(objA, objC));
-        console.log(compareObjects(objB, objC));
+console.log(compareObjects(objA, objB));
+console.log(compareObjects(objA, objC));
+console.log(compareObjects(objB, objC));

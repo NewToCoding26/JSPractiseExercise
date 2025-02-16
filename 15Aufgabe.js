@@ -4,6 +4,7 @@
 
 
 
+        
 /* Die Methode .replace() sucht nach einem Muster (entweder ein String oder ein regulärer Ausdruck) in einem String und ersetzt das erste
 Vorkommen dieses Musters durch einen angegebenen Ersatzstring */
 

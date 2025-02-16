@@ -37,13 +37,6 @@
 
 
 
-
-
-
-
-
-
-
         
 /* Das \n ist ein spezielles Zeichen in JavaScript, das für einen Zeilenumbruch steht. Mit .split('\n') wird der CSV-String an jedem Ze-
 ilenumbruch geteilt und es entsteht ein Array von Zeilen. Zum Beispiel wird aus dem String: */

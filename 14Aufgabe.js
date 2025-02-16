@@ -3,33 +3,41 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* **`Math.max`** gibt die größte Zahl aus einer Liste von Zahlen zurück, während **`Math.max(...)`** (mit dem Spread-Operator) die 
 größte Zahl aus einem Array von Zahlen zurückgibt. */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 const largestEvenNumber = (arr) => Math.max(...arr.filter(num => num % 2 === 0))

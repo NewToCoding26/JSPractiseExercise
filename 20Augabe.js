@@ -5,6 +5,40 @@
         true for all elements in a collection, false
         otherwise. */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Leichte Lösung:
 
 /*console.log([1,2,3,4,5,6,8].every(x => x > 0));
