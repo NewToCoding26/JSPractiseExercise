@@ -4,6 +4,37 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const countVowels = (str, vowels = ['a', 'e', 'i', 'o', 'u']) => str.split('').filter(h => vowels.indexOf(h) > -1).length;
 
 

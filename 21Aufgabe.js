@@ -33,9 +33,6 @@
 
 
 
-
-
-        
 /* Die Methode .sort() sortiert die Elemente eines Arrays in einer bestimmten Reihenfolge. Standardmäßig sortiert sie die Elemente als 
 Strings basierend auf ihren Unicode-Werten (das ist so etwas wie eine interne Nummer für jedes Zeichen). */
 
