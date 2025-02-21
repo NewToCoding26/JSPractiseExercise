@@ -37,7 +37,6 @@
 
 
 
-
 const firstNotRepeatedCharacter = (str) => 
     str.split('')
         .filter((item, index, arr) => 

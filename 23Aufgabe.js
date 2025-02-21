@@ -39,7 +39,6 @@
 
 
 
-
         
 const countCoins = (money, coins = [25, 10, 5, 2, 1]) => {
     const totalCoins = [];
